@@ -37,10 +37,11 @@ export default function CommentsPage() {
   // const updateComment = async (commentID) => {
   //   const response = await fetch(`/api/comments/${commentID}`, {
   //     method: "PATCH",
+  //     body: JSON.stringify({ comment }),
+  //     headers: { "Content-type": "application/json" },
   //   });
   //   // convert the response to json
   //   const data = await response.json();
-  //   setCommentUpdate(data);
   //   fetchComments();
   //   console.log(data);
   // };
